@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center; */
     height: 100vh;
-    background-size cover;
+    background-size: cover;
 }
 
 .menu {
@@ -116,7 +116,7 @@ body {
     color: #202020;
     font-weight: 14px;
 }
-/* .example-image-link{
+.example-image-link{
     display: inline-block;
     width: 250px;
 
@@ -124,4 +124,4 @@ body {
 .example-image-link img {
     width: 100%;
     object-fit: cover;
-} */
+}
