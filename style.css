@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url("../images/breakfast-tabel.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-size: cover;
+}
+
+.menu {
+    margin: 3.5rem;
+}
+
+.menu h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(85, 84, 84);
+    
+}
+
+/* ask chat Gpt about use after as before */
+.menu h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(51, 51, 51);
+    margin: 10px auto;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.menu-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffffffb7;
+    color: rgb(85, 84, 84);
+    border: 1px solid #bab9b9;
+    cursor: pointer;
+    transition: all 300ms;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.menu-buttons button:hover {
+    background-color: #9d9c9c;
+    color: #ffffff;
+}
+
+.main-menu {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top:40px;
+
+}
+
+.menu-item {
+    display:flex ;
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border: 0.5px solid #c8c8c8;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    align-items: center;
+    
+
+}
+
+
+.menu-item img {
+    width: 100%;
+   height:100px ;
+    margin-bottom: 20px;
+    object-fit: cover;
+    margin-right: 20px;
+    display:block;
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+}
+
+.menu-text h4 {
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 2px dotted #7d7d7d; /* Add dotted line under h4 */
+    padding-bottom: 5px;
+}
+
+.menu-text p{
+    margin: 0;
+    color: #202020;
+    font-weight: 14px;
+}
+.example-image-link{
+    display: inline-block;
+    width: 250px;
+
+}
+.example-image-link img {
+    width: 100%;
+    object-fit: cover;
+}
